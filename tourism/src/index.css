@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Whisper&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+
+:root {
+
+
+
+  color: white;
+
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+
+body {
+  margin: 0;
+  height: 100%;
+  width: 100%;
+
+}
+
+.font1{
+  font-family: 'Poppins', sans-serif;
+}
+
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+
+  }
+  
+}
+
+.cursive{
+  font-family: 'Whisper', cursive;
+}
